@@ -1,0 +1,14 @@
+<?php
+
+function hello_world_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'hello_world/testjs';
+}
+
+/*
+function hello_world_element_info_alter(array &$types) {
+  if (isset($types['markup'])) {
+    $types['markup']['#attached']['library'][] = 'hello_world/testjs';
+  }
+}
+*/
+

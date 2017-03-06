@@ -1,0 +1,6 @@
+testjs:
+  version: 1.x
+  js:
+    js/vue.js: {}
+    js/test.js: {}
+
