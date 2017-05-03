@@ -1,6 +1,6 @@
 new Vue({
   el: '#app',
-  delimiters: ['${', '}'],
+  delimiters: ['&{', '}'],
   data: {
     message: 'Hello Vue.js!'
   },

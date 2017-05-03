@@ -12,8 +12,9 @@ class HelloController extends ControllerBase {
    * @return array
    */
   public function content() {
-	  $test = '<div id="app"><p>${message}</p>
-        <button v-on:click="reverseMessage">Reverse Message</button>        
+    $test = '<div id="app"><p>&{message}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+        <div>&{message}</div>
         </div>';
     return [
     '#type' => 'inline_template',
@@ -22,4 +23,3 @@ class HelloController extends ControllerBase {
   }
 
 }
-
