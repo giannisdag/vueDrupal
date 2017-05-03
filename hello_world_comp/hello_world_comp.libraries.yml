@@ -1,0 +1,6 @@
+testjs:
+  version: 1.x
+  js:
+    dist/build.js: {}
+    dist/build.js.map: {}
+

@@ -1,0 +1,5 @@
+<?php
+
+function hello_world_comp_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'hello_world_comp/testjs';
+}
